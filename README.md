@@ -17,7 +17,7 @@ Burger is a restaurant app that lets users input the names of burgers they'd lik
 
 ## Installation
 
-This is a website only and does not require installation. It's currently hosted on Heroku and you can access it at
+This is a website only and does not require installation. It's currently hosted on Heroku and you can access it at https://burger-id.herokuapp.com
 
 ## Usage
 
