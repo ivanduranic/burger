@@ -28,5 +28,22 @@ const orm = {
       cb(result);
     });
   },
+
+  updateOne: function (table, objColVals, condition, cb) {
+    let dbQuery =
+      "UPDATE " +
+      table +
+      " SET " +
+      translateSql(objColVals) +
+      " WHERE " +
+      condition;
+
+    connection.query(dbQuery, function (err, res) {
+      if (err) {
+        throw err;
+      }
+      cb(res);
+    });
+  },
 };
 module.exports = orm;
