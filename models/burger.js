@@ -1,25 +1,25 @@
-module.exports = function (sequelize, DataTypes) {
-  var Burger = sequelize.define("Burger", {
-    burger_name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        len: [1],
-      },
-    },
-    devoured: {
-      type: DataTypes.BOOLEAN,
-      defaultValue: false,
-    },
-  });
-  return Burger;
-};
+// module.exports = function (sequelize, DataTypes) {
+//   var Burger = sequelize.define("Burger", {
+//     burger_name: {
+//       type: DataTypes.STRING,
+//       allowNull: false,
+//       validate: {
+//         len: [1],
+//       },
+//     },
+//     devoured: {
+//       type: DataTypes.BOOLEAN,
+//       defaultValue: false,
+//     },
+//   });
+//   return Burger;
+// };
 
-var orm = require("../config/orm");
+const orm = require("../config/orm.js");
 
-var burger = {
+const burger = {
   selectAll: function (cb) {
-    orm.SelectAll("burgers", function (res) {
+    orm.selectAll("burgers", function (res) {
       cb(res);
     });
   },
