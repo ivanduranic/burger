@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap"); */
 body {
-  background-color: #baddff;
+  background-color: #7893ad;
 }
 
 li {
@@ -10,7 +10,7 @@ li {
   background: white;
   list-style-type: none;
   margin-bottom: 5px;
-  font-family: "Comic Neue", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .label {
@@ -35,7 +35,7 @@ li {
 #title {
   padding-top: 20px;
   padding-bottom: 100px;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 100px;
 }
 
@@ -46,13 +46,14 @@ label {
 button {
   border-radius: 5px;
   background-color: lightgrey;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h2 {
-  font-family: "Comic Neue", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 label {
-  font-family: "Comic Neue", cursive;
+  font-family: Arial, Helvetica, sans-serif;
 }
