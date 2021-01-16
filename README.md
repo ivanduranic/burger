@@ -21,6 +21,8 @@ This is a website only and does not require installation. It's currently hosted 
 
 ## Usage
 
+![burgerimg](https://user-images.githubusercontent.com/61889668/104797116-b690a180-5789-11eb-8dc9-33541d8e6b46.png)
+
 This application is simple and easy to use and understand. With this app, you will be able to add and devour the burger, not just on the page but also inside the database. To add burger, you will type the burger name and click Add button. To devour burger, you will go to added burgers, and click Devour button of the burger you want to devour.
 
 ## License
